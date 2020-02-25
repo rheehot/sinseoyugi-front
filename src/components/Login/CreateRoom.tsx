@@ -53,10 +53,10 @@ const CreateRoom: React.FunctionComponent = () => {
         </div>
       </div>
       <div className="footer">
-          <button type="button" className="btn" onClick={handleBtn}>
-            Create Room
-          </button>
-        </div>
+        <button type="button" className="btn" onClick={handleBtn}>
+          Create Room
+        </button>
+      </div>
     </section>
   );
 }

@@ -4,6 +4,10 @@ const Join: React.FunctionComponent = () => {
   const [nickName, setNickName] = useState<string>('');
   const [joinRoom, setJoinRoom] = useState<string>('');
 
+  const handleBtn = () => {
+
+  }
+
   return (
     <section className="container">
       <div className="header">Join</div>
@@ -29,6 +33,11 @@ const Join: React.FunctionComponent = () => {
             onChange={(event) => setJoinRoom(event.target.value)}
           />
         </div>
+      </div>
+      <div className="footer">
+        <button type="button" className="btn" onClick={handleBtn}>
+          Join Room
+        </button>
       </div>
     </section>
   );
